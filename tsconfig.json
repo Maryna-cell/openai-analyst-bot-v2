@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+<<<<<<< HEAD
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+=======
+    "target": "ES6",                 // Современный JS
+    "module": "commonjs",            // Node.js
+    "rootDir": "./src",              // Исходники
+    "strict": true,                  // Строгая проверка типов
+    "esModuleInterop": true,         // Импорт CommonJS модулей через import
+    "skipLibCheck": true,            // Пропуск проверки типов библиотек
+    "forceConsistentCasingInFileNames": true // Дополнительно: строгий регистр файлов
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
+>>>>>>> bb00d19428e698fbc2be16929c88669b66068bef

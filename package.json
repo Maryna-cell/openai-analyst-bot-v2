@@ -1,0 +1,40 @@
+{
+  "name": "telegram-bot-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "dev:monitor": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+<<<<<<< HEAD
+    "openai": "^6.6.0",
+    "puppeteer": "^24.25.0",
+    "telegraf": "^4.16.3",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.0",
+=======
+    "@types/node": "^24.8.1",
+    "puppeteer": "^24.25.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+>>>>>>> bb00d19428e698fbc2be16929c88669b66068bef
+    "@types/puppeteer": "^5.4.7",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> bb00d19428e698fbc2be16929c88669b66068bef
